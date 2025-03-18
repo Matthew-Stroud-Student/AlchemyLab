@@ -1171,7 +1171,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectiveDisplay: {fileID: 451095878}
-  objectiveText: Grab the decrease potion.
+  objectiveText: Find the potion of increasing.
   completedText: Wahoo you've completed an objective!
   OnCompleteObjective:
     m_PersistentCalls:
@@ -6431,11 +6431,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3da78b2f8c17763488bf379c58a3f451, type: 3}
       propertyPath: m_LocalScale.y
-      value: 250
+      value: 249.99998
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3da78b2f8c17763488bf379c58a3f451, type: 3}
       propertyPath: m_LocalScale.z
-      value: 250
+      value: 249.99998
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3da78b2f8c17763488bf379c58a3f451, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6443,11 +6443,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3da78b2f8c17763488bf379c58a3f451, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.0009999275
+      value: 0.0009989738
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3da78b2f8c17763488bf379c58a3f451, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.2290001
+      value: 1.229001
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3da78b2f8c17763488bf379c58a3f451, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6459,11 +6459,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3da78b2f8c17763488bf379c58a3f451, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0.000000029802322
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3da78b2f8c17763488bf379c58a3f451, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.000000029802322
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3da78b2f8c17763488bf379c58a3f451, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -6483,7 +6483,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 4c339e2dfa7d22740b67b97f887eeb01, type: 2}
     - target: {fileID: 919132149155446097, guid: 3da78b2f8c17763488bf379c58a3f451, type: 3}
       propertyPath: m_Name
-      value: Crucible (6)
+      value: Cauldron
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6538,7 +6538,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 389346417}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 49d07c2f6e82b744689d8a1285527349, type: 3}
   m_Name: 
@@ -6571,7 +6571,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1418001004}
+      - m_Target: {fileID: 1517016760}
         m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
         m_MethodName: set_enabled
         m_Mode: 6
@@ -6583,9 +6583,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1962487973}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
+      - m_Target: {fileID: 389346417}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6593,65 +6593,8 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
---- !u!1001 &389688069
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1220581351}
-    m_Modifications:
-    - target: {fileID: 3569318583157863373, guid: 09e96e114fa760a43bbd718024f0e9ac, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3569318583157863373, guid: 09e96e114fa760a43bbd718024f0e9ac, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3569318583157863373, guid: 09e96e114fa760a43bbd718024f0e9ac, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3569318583157863373, guid: 09e96e114fa760a43bbd718024f0e9ac, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3569318583157863373, guid: 09e96e114fa760a43bbd718024f0e9ac, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3569318583157863373, guid: 09e96e114fa760a43bbd718024f0e9ac, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3569318583157863373, guid: 09e96e114fa760a43bbd718024f0e9ac, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3569318583157863373, guid: 09e96e114fa760a43bbd718024f0e9ac, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3569318583157863373, guid: 09e96e114fa760a43bbd718024f0e9ac, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3569318583157863373, guid: 09e96e114fa760a43bbd718024f0e9ac, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8486105578483698633, guid: 09e96e114fa760a43bbd718024f0e9ac, type: 3}
-      propertyPath: m_Name
-      value: Smoke Big
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 09e96e114fa760a43bbd718024f0e9ac, type: 3}
 --- !u!1001 &394420256
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7118,7 +7061,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 4c339e2dfa7d22740b67b97f887eeb01, type: 2}
     - target: {fileID: 919132149155446097, guid: 1ba46b0f11c69ea4aaedbf0d320bce48, type: 3}
       propertyPath: m_Name
-      value: JarSmall (15)
+      value: Cursed Potion
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7176,12 +7119,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 408478897}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 49d07c2f6e82b744689d8a1285527349, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactionText: "Grab P\u030A\u036A\u0337\u0308\u0324\u0317\u036A\u0332\u0310\u032E\u0300\u036E\u0307\u034C\u033C\u0301\u032A\u0356\u033A\u032D\u036C\u0316\u0300\u0349\u0336\u032C\u033C\u0328\u0301\u0300o_\u0356\u036D\u0349\u031Dt\u0350\u0308\u0301\u031D\u030D\u0326\u032E\u030D\u0355\u0348\u0302\u030F\u033C\u0354\u034A\u0309\u0349\u0321\u0346\u034Bi\u033B\u032D\u0354\u0301\u0359\u0339\u0301\u035E\u034Eo\u035B\u0337\u0302\u0325\u0352\u0312\u033C\u035B\u031D\u0329\u031F\u0301\u0314\u031A\u0300\u0330\u0345\u036F\u0351\u034E\u0300\u0320\u0313\u030C\u0368\u0307\u0365\u0330\u032C\u0312\u0364\u0332\u0338\u0313\u031A\u033C\u0324\u036C\u0361\u0332n\u0369\u035C\u0305\u0306\u0313\u0333\u032F\u0323\u030E\u0327\u030B\u0332\u0300\u032A\u030D\u036C\u034E\u036F\u031F\u0354\u0339\u0358\u031E\u0313\u033E\u031B\u030A\u031C\u031F\u0367\u031B\u035E\u0303\u0324"
+  interactionText: Grab Potion of ($^@%*
   OnInteract:
     m_PersistentCalls:
       m_Calls:
@@ -8971,7 +8914,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectiveDisplay: {fileID: 451095878}
-  objectiveText: Grab the shaping potion.
+  objectiveText: Find the potion of shaping.
   completedText: Huh
   OnCompleteObjective:
     m_PersistentCalls:
@@ -9175,7 +9118,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: d47f8424c3d4ef145904f885392ba97f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.146
+      value: 6.067
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d47f8424c3d4ef145904f885392ba97f, type: 3}
       propertyPath: m_LocalPosition.y
@@ -9183,7 +9126,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d47f8424c3d4ef145904f885392ba97f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.415
+      value: -4.333
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d47f8424c3d4ef145904f885392ba97f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -9219,7 +9162,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 4c339e2dfa7d22740b67b97f887eeb01, type: 2}
     - target: {fileID: 919132149155446097, guid: d47f8424c3d4ef145904f885392ba97f, type: 3}
       propertyPath: m_Name
-      value: VialSmall (2)
+      value: Increasing Potion
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15277,7 +15220,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 0.59607846, b: 0.13725491, a: 1}
   m_Intensity: 1
-  m_Range: 5
+  m_Range: 7
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -15684,15 +15627,15 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 2045953248}
+    m_TransformParent: {fileID: 1512586004}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 9e976a3c2ad7c3940a4df0c6a49a7abf, type: 3}
       propertyPath: m_LocalScale.x
-      value: 50
+      value: 70
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9e976a3c2ad7c3940a4df0c6a49a7abf, type: 3}
       propertyPath: m_LocalScale.y
-      value: 50
+      value: 70
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9e976a3c2ad7c3940a4df0c6a49a7abf, type: 3}
       propertyPath: m_LocalScale.z
@@ -15744,7 +15687,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 4c339e2dfa7d22740b67b97f887eeb01, type: 2}
     - target: {fileID: 919132149155446097, guid: 9e976a3c2ad7c3940a4df0c6a49a7abf, type: 3}
       propertyPath: m_Name
-      value: JarLarge (13)
+      value: Bottle Potion
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15756,9 +15699,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9e976a3c2ad7c3940a4df0c6a49a7abf, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1418001005}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9e976a3c2ad7c3940a4df0c6a49a7abf, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1418001004}
   m_SourcePrefab: {fileID: 100100000, guid: 9e976a3c2ad7c3940a4df0c6a49a7abf, type: 3}
 --- !u!1001 &991001824
 PrefabInstance:
@@ -16339,7 +16279,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 4c339e2dfa7d22740b67b97f887eeb01, type: 2}
     - target: {fileID: 919132149155446097, guid: 2bd71eba1b2b14140a72e210a0fdb9c7, type: 3}
       propertyPath: m_Name
-      value: FlaskSquare (10)
+      value: Shaping Potion
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18548,12 +18488,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1219072766}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 49d07c2f6e82b744689d8a1285527349, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactionText: Grab Potion
+  interactionText: Grab Potion of Increasing
   OnInteract:
     m_PersistentCalls:
       m_Calls:
@@ -18679,9 +18619,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 832782ba63b2d5148babf317e70c83bd, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1669806437}
-    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 832782ba63b2d5148babf317e70c83bd, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1383054559}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 832782ba63b2d5148babf317e70c83bd, type: 3}
       insertIndex: -1
@@ -18713,10 +18650,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a21845f08393847409d1e8b9de8f7d70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  modifiedScale: 350
-  changeRate: 1
-  targetLightIntensity: 5
-  targetNearPlane: 0.35
+  modifiedScale: 1000
+  changeRate: 0.01
+  targetLightIntensity: 30
+  targetNearPlane: 1
 --- !u!114 &1220581358
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18729,7 +18666,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49d07c2f6e82b744689d8a1285527349, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactionText: Grow
+  interactionText: Commit Arson
   OnInteract:
     m_PersistentCalls:
       m_Calls:
@@ -18745,7 +18682,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 548716855}
+      - m_Target: {fileID: 1829055806}
         m_TargetAssemblyTypeName: Objective, Assembly-CSharp
         m_MethodName: CompleteObjective
         m_Mode: 1
@@ -18756,18 +18693,6 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1383054561}
-        m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
-        m_MethodName: Play
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 1220581358}
         m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
@@ -19062,7 +18987,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49d07c2f6e82b744689d8a1285527349, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactionText: Grab Potion
+  interactionText: Grab Potion of Shaping
   OnInteract:
     m_PersistentCalls:
       m_Calls:
@@ -21262,16 +21187,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -4440208124882540391, guid: 0affac51e2335a045815f8e427769e8c, type: 3}
---- !u!4 &1383054559 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3569318583157863373, guid: 09e96e114fa760a43bbd718024f0e9ac, type: 3}
-  m_PrefabInstance: {fileID: 389688069}
-  m_PrefabAsset: {fileID: 0}
---- !u!198 &1383054561 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 5993095702403684896, guid: 09e96e114fa760a43bbd718024f0e9ac, type: 3}
-  m_PrefabInstance: {fileID: 389688069}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1383600979
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21911,58 +21826,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9e976a3c2ad7c3940a4df0c6a49a7abf, type: 3}
   m_PrefabInstance: {fileID: 987226824}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1418001004
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1418001002}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49d07c2f6e82b744689d8a1285527349, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  interactionText: Bottle Potion
-  OnInteract:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1924072711}
-        m_TargetAssemblyTypeName: Objective, Assembly-CSharp
-        m_MethodName: CompleteObjective
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1220581358}
-        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
-        m_MethodName: set_enabled
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 1418001002}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!64 &1418001005
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23060,6 +22923,7 @@ Transform:
   - {fileID: 1368154324}
   - {fileID: 504924890}
   - {fileID: 1823370220}
+  - {fileID: 1418001003}
   m_Father: {fileID: 80332369}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1517016756
@@ -23073,8 +22937,10 @@ GameObject:
   - component: {fileID: 1517016759}
   - component: {fileID: 1517016758}
   - component: {fileID: 1517016757}
+  - component: {fileID: 1517016760}
+  - component: {fileID: 1517016761}
   m_Layer: 0
-  m_Name: Cylinder
+  m_Name: Concoction
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23146,6 +23012,80 @@ Transform:
   - {fileID: 1638477041}
   m_Father: {fileID: 389346416}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &1517016760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1517016756}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49d07c2f6e82b744689d8a1285527349, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionText: Bottle Potion
+  OnInteract:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1924072711}
+        m_TargetAssemblyTypeName: Objective, Assembly-CSharp
+        m_MethodName: CompleteObjective
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1220581358}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1418001002}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!64 &1517016761
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1517016756}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1517500427
 GameObject:
   m_ObjectHideFlags: 0
@@ -23580,7 +23520,7 @@ MonoBehaviour:
   OnInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 48591143}
+      - m_Target: {fileID: 492984752}
         m_TargetAssemblyTypeName: Objective, Assembly-CSharp
         m_MethodName: CompleteObjective
         m_Mode: 1
@@ -24593,7 +24533,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 0.59607846, b: 0.13725491, a: 1}
   m_Intensity: 1
-  m_Range: 5
+  m_Range: 7
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -29508,7 +29448,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectiveDisplay: {fileID: 451095878}
-  objectiveText: Grab the cursed potion.
+  objectiveText: Grab the potion of *@$!)&!%.
   completedText: Wahoo you've completed an objective!
   OnCompleteObjective:
     m_PersistentCalls:
@@ -29676,7 +29616,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectiveDisplay: {fileID: 451095878}
-  objectiveText: Bottle the potion.
+  objectiveText: Bottle your concoction.
   completedText: Wahoo you've completed an objective!
   OnCompleteObjective:
     m_PersistentCalls:
@@ -30809,7 +30749,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 0.59607846, b: 0.13725491, a: 1}
   m_Intensity: 1
-  m_Range: 5
+  m_Range: 7
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -32010,11 +31950,10 @@ Transform:
   - {fileID: 1576989221}
   - {fileID: 1112018003}
   - {fileID: 1220581351}
-  - {fileID: 389346416}
   - {fileID: 408478896}
   - {fileID: 1021555606}
   - {fileID: 574559876}
-  - {fileID: 1418001003}
+  - {fileID: 389346416}
   m_Father: {fileID: 80332369}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2047558721 stripped
